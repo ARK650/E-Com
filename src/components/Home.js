@@ -22,7 +22,7 @@ const Home = () => {
     <>
       {' '}
       <div className='home'>
-        Hello Welcome <br />
+        Hello Welcome user <br />
         {user && user.email}
         <Header />
         <CarouselIntervals />
