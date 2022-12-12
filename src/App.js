@@ -2,10 +2,10 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
-import Login from './components/Login';
-import Signup from './components/Signup';
-import PhoneSignUp from './components/PhoneSignUp';
-import ProtectedRoute from './components/ProtectedRoute';
+import Login from './components/Login-components/Login';
+import Signup from './components/Login-components/Signup';
+import PhoneSignUp from './components/Login-components/PhoneSignUp';
+import ProtectedRoute from './components/Login-components/ProtectedRoute';
 import { UserAuthContextProvider } from './context/UserAuthContext';
 
 function App() {

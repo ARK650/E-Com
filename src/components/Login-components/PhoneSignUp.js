@@ -4,7 +4,7 @@ import { Form, Alert } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import 'react-phone-number-input/style.css';
 import PhoneInput from 'react-phone-number-input';
-import { useUserAuth } from '../context/UserAuthContext';
+import { useUserAuth } from '../../context/UserAuthContext';
 
 const PhoneSignUp = () => {
   const [error, setError] = useState('');
